@@ -20,3 +20,6 @@ div#images-container img{
     display: flex;
     justify-content: center;
 }
+.selected{
+    opacity: 0.4;
+}

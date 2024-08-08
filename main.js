@@ -4,15 +4,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const resultText = document.getElementById('captcha-result');
 
     const images = [
-        { src: '/images/random-1.jpeg', isTrump: false },
-        { src: '/images/random-2.jpeg', isTrump: false },
-        { src: '/images/random-3.jpeg', isTrump: false },
-        { src: '/images/random-4.jpeg', isTrump: false },
-        { src: '/images/trump-1.jpeg', isTrump: true },
-        { src: '/images/random-7.jpeg', isTrump: false },
-        { src: '/images/random-6.jpeg', isTrump: false },
-        { src: '/images/random-5.jpeg', isTrump: false },
-        { src: '/images/random-8.jpeg', isTrump: false }
+        { src: 'https://i.ibb.co/P4mkXXR/random-1.jpg', isTrump: false },
+        { src: 'https://i.ibb.co/xGx5fFj/random-2.jpg', isTrump: false },
+        { src: 'https://i.ibb.co/2KqkmMz/random-3.jpg', isTrump: false },
+        { src: 'https://i.ibb.co/LpJhRSr/random-4.jpg', isTrump: false },
+        { src: 'https://i.ibb.co/L02XhBr/trump-1.jpg', isTrump: true },
+        { src: 'https://i.ibb.co/zX6kKys/random-7.jpg', isTrump: false },
+        { src: 'https://i.ibb.co/Vpbt3d7/random-6.jpg', isTrump: false },
+        { src: 'https://i.ibb.co/YTWmLFy/random-5.jpg', isTrump: false },
+        { src: 'https://i.ibb.co/bsP8TNJ/random-8.jpg', isTrump: false }
     ];
 
     images.forEach((image, index) => {
