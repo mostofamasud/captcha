@@ -1,0 +1,22 @@
+#captcha-container {
+    margin-top: 50px;
+}
+div#images-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto) ;
+    grid-gap: 0;
+    width: 400px;
+    background-color: #fafafa;
+    box-shadow: 9px 3px 5px #DDD;
+    box-shadow: 9px 6px 5px #fff;
+    grid-column-gap: 0;
+}
+div#images-container img{
+    box-shadow: 8px 5px 3px #fff;
+    margin: 3px;
+    padding: 0px;
+}
+.imgCenter {
+    display: flex;
+    justify-content: center;
+}
